@@ -1,0 +1,51 @@
+  
+ <!--<app-perentchilddata (v1_name_p)='newvar_v1'></app-perentchilddata>-->
+ 
+
+ <!--<div name="dropdiv">
+    <div>
+
+        hobbies are  <li *ngFor="let val of dropdata">{{val}}</li>
+        <select>
+          <option>
+          hobbiles 
+          </option>
+          <option *ngFor="let data of dropdata">{{data}}</option>
+      
+        </select>
+   
+        <app-student (dataFromChild)="parentdatahandler($event)"></app-student>
+</div>>-->
+
+
+ 
+  <!--<li *ngFor="let data of apidata">{{data.id}}</li>-->
+
+
+   <!--
+  <p>weather works!</p>
+  <div class="main-conatiner mt-5" style="height: 100vh;">
+      <div class=" ">
+        <h1>check Weather </h1>
+        <form (submit)="getWeather() ">
+          <label for="city" class="mt-5">City Name:</label>
+          <input  [(ngModel)]="city" class="mt-3"  name="city" placeholder="Enter Your Name" required>
+          <button type="submit" class="btn btn-success mt-2">submit</button>
+        </form>
+    
+        <div *ngIf="weatherData" class=" ">
+            <img src=" " alt="">
+          <h2>Weather in
+            {{ weatherData.name }},
+            {{ weatherData.sys.country }}
+          </h2>
+          <p>Temperature:
+            {{ weatherData.main.temp }}°C
+          </p>
+          <p>Weather:
+            {{ weatherData.weather[0].description }}
+          </p>
+        </div>
+      </div>
+    </div>-->
+    <router-outlet></router-outlet> 
